@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.quiz{
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+h1{
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-align: start;
+    margin-left: 10px;
+}
+.option{
+    margin-left: 15px;
+    text-align: start;
+}
+.btn{
+    margin: 10px 0 0 10px;
+    text-align: start;
+}
+#submit{
+    border: 2px solid aqua;
+}
+.correct{
+    color: green;
+    margin-left: 15px;
+}
+.incorrect{
+    color: red;
+    margin-left: 15px;
+}
+.res{
+    text-align: start;
+}
